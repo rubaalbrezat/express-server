@@ -27,15 +27,15 @@
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
     "function-bind": "^1.1.1",
-    "has": "^1.0.3",
     "get-intrinsic": "^1.1.2",
+    "has": "^1.0.3",
     "has-symbols": "^1.0.3",
     "http-errors": "^2.0.0",
     "iconv-lite": "^0.4.24",
     "inherits": "^2.0.4",
     "ipaddr.js": "^1.9.1",
-    "merge-descriptors": "^1.0.1",
     "media-typer": "^0.3.0",
+    "merge-descriptors": "^1.0.1",
     "methods": "^1.1.2",
     "mime": "^1.6.0",
     "mime-db": "^1.52.0",
@@ -65,7 +65,10 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  },
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node index.js"
